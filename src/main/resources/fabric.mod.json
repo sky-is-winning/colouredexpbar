@@ -9,21 +9,13 @@
 	],
 	"contact": {
 		"homepage": "https://github.com/sky-is-winning/colouredexpbar",
-		"sources": "https://github.com/sky-is-winning/colouredexpbar"
+		"sources": "https://github.com/sky-is-winning/colouredexpbar",
+		"issues": "https://github.com/sky-is-winning/colouredexpbar/issues"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/coloured-outline-exp-bar/icon.png",
 	"environment": "*",
-	"entrypoints": {
-		"main": [
-			"com.skyiswinning.exp.ColouredOutlineEXPBar"
-		],
-		"client": [
-			"com.skyiswinning.exp.ColouredOutlineEXPBarClient"
-		]
-	},
 	"mixins": [
-		"coloured-outline-exp-bar.mixins.json",
 		{
 			"config": "coloured-outline-exp-bar.client.mixins.json",
 			"environment": "client"
@@ -34,8 +26,5 @@
 		"minecraft": "~1.21",
 		"java": ">=21",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }
