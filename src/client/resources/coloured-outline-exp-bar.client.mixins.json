@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "com.skyiswinning.exp.mixin.client",
+	"package": "ng.skyiswinni.exp.mixin.client",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
 		"InGameHudMixin"
